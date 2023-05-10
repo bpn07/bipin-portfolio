@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-image: linear-gradient( to right,#272727, #0e0e0e );
+}
+
+.box{
+  width: 32rem;
+  height:32rem;
+  border-radius: 5rem;
+  background-image: linear-gradient( to right, #0e0e0e,#272727 );
+
+}
+.profile-image{
+  width: 40rem;
+}
