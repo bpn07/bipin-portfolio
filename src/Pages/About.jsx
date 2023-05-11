@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
 
-        <div className=' text-center px-10 lg:px-20 sm:w-8/12 m-auto'>
-            <h1 className='text-4xl sm:text-5xl md:text-8xl pb-20'>About Me</h1>
+        <div className=' text-center px-10 lg:px-20 sm:w-8/12 m-auto pt-28'>
+            <h1 className='text-5xl sm:text-5xl md:text-8xl pb-20'>About Me</h1>
             <h5 className='text-2xl sm:text-4xl pb-3'>Hello!</h5>
             <p className='text-3xl md:text-5xl pb-3'>I am Bipin Pathak</p>
             <p className='text-xl md:text-2xl pb-10'>An undergraduate Jr. Frontend Developer based on Nepal.</p>
