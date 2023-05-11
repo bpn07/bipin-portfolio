@@ -3,9 +3,10 @@ import Profile from '../images/Profile.png';
 
 const HeroLeft = () => {
     return (
-        <div className='flex justify-center items-center'>
-           <div className='box -rotate-45 mt-32'></div>
-            <img src={Profile} alt="" className='profile-image fixed mt-72  ' />
+        <div>
+            <div className='box w-72 h-72 lg:w-96 lg:h-96 -rotate-45 overflow-hidden relative'>
+                <img src={Profile} alt="" className='rotate-45 absolute -bottom-8 right-8' />
+            </div>
         </div>
     )
 }
