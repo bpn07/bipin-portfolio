@@ -1,5 +1,5 @@
 import React from 'react'
-import TechTemple from '../images/techtemple.png'
+import TechTemple from '../images/Techtemple.png'
 import DoctorStoryNepal from '../images/DoctorStoryNepal.png'
 
 const Works = () => {
