@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --index:calc(1vh + 1vw);
+}
 body{
   /* width: 100vw;
   height: 100vh;
@@ -14,6 +17,10 @@ body{
   border-radius: 5rem;
   background-image: linear-gradient( to right, #0e0e0e,#272727 );
 
+}
+
+.project-img{
+  max-width:calc( var(--index)*20);
 }
 
 
