@@ -11,8 +11,7 @@ const Works = () => {
           <img src={TechTemple} alt="" className='project-img rounded-2xl' />
         </div>
         <div className='lg:pt-52 md:pt-40 sm:pt-20 pt-10'>
-          <img src={DoctorStoryNepal} alt="" className='project-img rounded-2xl ' />
-
+          <img src={DoctorStoryNepal} alt="" className='project-img rounded-2xl' />
         </div>
       
       </div>
