@@ -5,21 +5,19 @@ import { Route, Routes } from 'react-router-dom'
 import Works from "./Pages/Works";
 import About from "./Pages/About";
 import Footer from "./components/Footer";
-import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
   return (
     <div >
-      <BrowserRouter>
+      
         <Sidebar />
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="/about" element={<About />} />
           <Route path="/works" element={<Works />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
     </div>
   );
 }

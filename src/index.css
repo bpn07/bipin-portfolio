@@ -19,11 +19,6 @@ body{
 
 }
 
-.project-img{
-  max-width:calc( var(--index)*20);
-}
-
-
 /* @media screen and (max-width: 1240px) {
   .box{
     width: 25rem;
