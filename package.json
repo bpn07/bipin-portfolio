@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "author": {
-		"name": "Bipin Pathak",
-		"email": "beepinpathal021@gmail.com",
-		"url": "https://www.bipin07.com.np/"
-	},
+    "name": "Bipin Pathak",
+    "email": "beepinpathal021@gmail.com",
+    "url": "https://www.bipin07.com.np/"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -32,5 +32,8 @@
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "vite": "^4.3.2"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
